@@ -1,0 +1,61 @@
+.header {
+
+    border: 1px solid black;
+}
+.name {
+
+}
+
+.nav {
+        display: flex;
+        height: 70px;
+        align-items: center;
+}
+.nav-item {
+        margin: 10px;
+}
+.nav-item-right{
+        display: flex;
+        margin-left: auto;
+}
+
+.main{
+    text-align: center;
+    padding-top:48px;
+    padding-left:16px;
+    padding-right: 16px;
+    padding-bottom: 24px;
+    border: 1px black solid;
+        
+}
+.title{
+    font-size: 3.5rem;
+    font-weight: 300;
+}
+.sub_title{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.option{
+    display: flex;
+    justify-content: center;
+
+}
+.option-list{
+    margin: 0 15px;
+    margin-top: 30px;
+    border: 1px solid black;
+    width: 200px;
+    height: 40px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+}
+.cards-list{
+    margin: 0 15px;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    text-align: center
+}

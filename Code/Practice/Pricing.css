@@ -1,0 +1,10 @@
+Name {
+    display: inline;
+    border: 1px black solid;
+}
+
+nav {
+    text-align: right;
+    display: flex;
+    border: 1px black solid;
+}
