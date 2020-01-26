@@ -59,6 +59,7 @@
     z-index: 5;
 }
 .swiper-slide .container {z-index: 20;}
+
 .swiper-slide:after {
     content: ''; 
     position: absolute; 
