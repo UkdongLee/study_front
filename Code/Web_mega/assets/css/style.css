@@ -6,6 +6,8 @@
 #banner {position: relative;}
 #movie {background-color: #f8f8f8;}
 #event {}
+#opening {margin: 17px 0; background: url(../img/bg01.jpg) no-repeat center top; background-size: cover; }
+#new {}
 
 /* center area */
 .container {position: relative; width: 1280px; margin: 0 auto; background: rgba(0, 0, 0, 0.0);}
@@ -116,6 +118,29 @@
 .event .event_left .event_box2 {float: left; width: 50%;}
 .event .event_right {float: left; width: 32%;}
 
+/* opening */
+.opening {padding: 100px 0; text-align: center; color: #bb9b51;}
+.opening h2 {margin-bottom: 15px;}
+.opening h2 .grand {background-position: 0 -175px; display: inline-block; width: 330px; height: 50px;}
+.opening .date {background-position: 0 -225px; display: inline-block; width: 260px; height: 45px;}
+.opening .desc {font-size: 35px; font-weight: 300; padding-bottom: 20px; background: url(../img/bar.png) no-repeat bottom center; background-size: 100%;}
+.opening .open_box {overflow: hidden; padding: 20px 3% 0 3%;}
+.opening .open_box > div {float: left; width: 27.333%; margin: 4% 3% 0 3%; border: 1px solid #3e4b44; box-sizing: border-box; background: rgba(0,0,0,0.5);}
+.opening .open_box > div h3 {color: #fff; border: 1px solid #6e3abb; font-size: 19px; font-weight: 300; margin-top: -24px; display: inline-block; padding: 10px 20px; background: #551e9b;}
+.opening .open_box > div p {font-size: 23px; color: #fff; font-weight: 700; padding: 6% 0 10% 0;}
+.opening .open_box > div p em {display: block;}
+.opening .open_box > div p strong {display: block;}
+
+/* new movie */
+.new {padding: 100px 0; position: relative;}
+.new h2 {font-size: 30px; font-weight: 500; margin-bottom: 20px;}
+.new .new_left {position: relative; height: 500px; margin-right: 423px; background: #ccc url(../img/new01.jpg) center center;}
+.new .new_left .play {position: absolute; left: 50%; top: 50%; width: 120px; height: 120px; transform: translate(-50%, -50%);}
+.new .new_left .play .st0 {fill: #fff; opacity: 0.3;}
+.new .new_left .play .st1 {fill: #fff;}
+.new .new_right {position: absolute; right: 0; top: 165px; width: 400px; height: 500px; background: #f0f0f0; background-size: cover;}
+
+
 /* media query */
 @media (max-width: 1290px) {
     .container {width: 100%;}
@@ -149,6 +174,10 @@
     .movie_title ul {width: auto;}
     .movie_title li {width: 25%; box-sizing: border-box; padding-right: 1px;}
 
+    .opening {padding: 50px 0;}
+    .opening .open_box {display: none;}
+    .opening .desc {font-size: 25px; background: none;}
+
 }
 
 @media (max-width: 768px) {
@@ -176,6 +205,9 @@
     .event h2 {font-size: 24px; font-weight: 700;}
     .event .event_left {width: 100%;}
     .event .event_right {display: none;}
+
+    #opening {margin: 0;}
+    
 }
 
 @media (max-width: 600px){
@@ -210,6 +242,14 @@
     #event .row {padding: 0 8px;}
     .event {padding: 16px;}
     .event h2 {font-size: 18px; margin-bottom: 10px;}
+
+    #opening {margin: 8px 0;}
+    .opening {padding: 20px 0;}
+    .opening h2 {margin-bottom: 10px;}
+    .opening h2 .grand {background-size: 300px; background-position: 0 -105px; width: 197px; height: 24px;} 
+    .opening .date {display: none;}
+    .opening .date {font-size: 16px; font-weight: 400; padding-bottom: 0;}
+
 }
 
 @media (max-width: 480px) {
